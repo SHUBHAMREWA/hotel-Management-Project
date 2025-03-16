@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: sans-serif !important;
+    
+    /* background-color: rgba(0, 0, 0, 0.473) */
+}
+  
+body{
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+/* navbar Css */
+
+.navbar{
+    background: linear-gradient(rgb(52, 45, 40),rgb(52, 45, 40));
+}
+.navbar-brand{
+    background: linear-gradient(to right, #FFD700, #FFA500);  /* Golden to Orange */
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent !important;
+
+}
+.nav-link{
+    background: linear-gradient(to top, #B76E79, #FFC0CB);  /* Rose Gold to Light Pink */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent !important;
+    
+}
+
+/* main Container css */
+
+.main-container{
+    margin-top: 80px !important;
+}
+
+.signupBtn{
+    background: linear-gradient(rgb(52, 45, 40),rgb(52, 45, 40));
+   color: white !important;
+   font-weight: bolder !important;
+}
+
+.signupactive:active, .loginactive:active {
+    background: linear-gradient(to right, #FFD700, #FFA500)  !important;  /* Golden to Orange */
+    color: red !important;
+   }
+
+   .active.activeBtn{
+    background: linear-gradient(to right, #FFD700, #FFA500)  !important;  /* Golden to Orange */
+    color: red !important; 
+   }
+
+.signupactive , .loginactive{
+    font-weight: bolder !important;
+}

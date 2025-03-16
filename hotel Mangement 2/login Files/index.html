@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel management</title>
+    <script src="../other External Files/sweetalert.js"></script>
+    <link rel="stylesheet"  href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+          
+        <!-- Navbar-->
+         <nav class="navbar navbar-expand-md fixed-top navbar-dark shadow-lg">
+
+              <div class="container-fluid">
+                <img src="../img/sayajilog.png" width="6%" alt="">
+                <a href="#" class="navbar-brand fw-bold  fs-5">Turning Moments into Memories</a>
+                
+                
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mymenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+               
+                <div class="navbar-collapse collapse justify-content-end" id="mymenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a href="" class="nav-link fw-bold  fs-2">Saya JI</a>
+                    </li>
+                </ul>
+                    </div>
+
+              </div>
+         </nav>
+
+         <!-- Main Container -->
+             
+         <div class="container main-container">
+               <div class="row mt-5 align-item-center"> 
+                <div class="col-md-6 mt-5">
+                    <!-- nav tab -->
+                     <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a href="#signup" class="nav-link text-dark active activeBtn" data-bs-toggle="tab">Signup</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#login" class="nav-link text-dark activeBtn" data-bs-toggle="tab">Login</a>
+                        </li>
+                     </ul>
+                     <!-- nav pane -->
+                       
+                       <div class="tab-content">
+                           <div class="tab-pane container mt-3 active" id="signup">
+                             <img src="..//img/signup-2.webp" width="20%" alt="">
+                             <form class="signup-form">
+                                <input name="fullName" type="text" placeholder="Full Name" class="form-control mt-3 mb-3">
+                                <input name="hotelName" type="text" placeholder="hotel Name" class="form-control mb-3">
+                                <input name="hotelNumber" type="text" placeholder="No of Hotel room" class="form-control mb-3">
+                                <input name="mobile" type="number" placeholder="mobile No" class="form-control mb-3">
+                                <input name="email" type="email" placeholder="Email" class="form-control mb-3">
+                                <input name="password" type="password" placeholder="make password" class="form-control mb-3">
+                                 <button class="btn btn-control signupBtn w-100"> SignUp</button>
+                             </form>
+                           </div>
+                           <div class="tab-pane container mt-3" id="login">
+                             <img src="../img/loginImg.png" width="20%" alt="">
+                             <form class="login-form ">
+                                <input required type="email" placeholder="Email" class="form-control mb-3 mt-3">
+                                <input required type="password" placeholder="Full Name" class="form-control mb-3">
+                                 <button class="btn btn-control signupBtn w-100 ">Login</button>
+                             </form>
+                           </div>
+                       </div>
+                </div>
+
+
+                <div class="col-md-6 mt-5">
+                    <img src="../img/hotelPhoto.jpg" class="w-100 mt-5" alt="">
+                </div>
+               </div>
+         </div>
+        
+         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+       <script src="./script.js"></script>
+    </body>
+</html>
